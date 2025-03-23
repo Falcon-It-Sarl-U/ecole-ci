@@ -1,0 +1,9 @@
+.custom-logo {
+  margin-left: -20px; /* Déplace légèrement à gauche */
+}
+
+.custom-logo img {
+  max-width: 90px; /* Réduit la taille des logos */
+  height: auto;
+  margin-right: 5px; /* Espace entre les logos */
+}
