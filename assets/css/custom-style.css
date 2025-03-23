@@ -7,3 +7,17 @@
   height: auto;
   margin-right: 5px; /* Espace entre les logos */
 }
+
+.partner-wrapper img {
+  width: 280px;           /* largeur uniforme */
+  height: 120px;           /* hauteur uniforme */
+  object-fit: contain;    /* garde les proportions sans déformation */
+  margin: 0 15px;         /* espace horizontal entre les logos */
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+/* Optionnel : effet zoom au survol */
+.partner-wrapper img:hover {
+  transform: scale(1.05);
+}
