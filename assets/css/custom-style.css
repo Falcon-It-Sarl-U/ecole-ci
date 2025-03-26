@@ -44,3 +44,52 @@
       border-radius: 8px;
   }
 }
+.text-green {
+  color: #28a745; /* vert */
+}
+
+.text-brown {
+  color: #8B4513; /* marron café */
+}
+strong {
+  color: #000000; /* noir */
+}
+.job-opportunities {
+  padding: 20px 0;
+}
+
+.job-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.job-list li {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.job-list strong {
+  color: #000;
+  font-weight: 600;
+}
+.job-title-green {
+  color: #28a745; /* vert */
+  font-weight: bold;
+}
+
+.text-brown {
+  color: #8B4513; /* café/chocolat */
+}
+
+.text-success {
+  color: #28a745;
+}
+
+.custom-list {
+  padding-left: 20px;
+}
+
+.custom-list li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
