@@ -21,3 +21,21 @@
 .partner-wrapper img:hover {
   transform: scale(1.05);
 }
+
+@media (min-width: 768px) {
+  .team-img img {
+      width: 350px;
+      height: 440px;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+      margin: 0 auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .team-img img {
+      width: 100%;
+      height: auto;
+  }
+}
