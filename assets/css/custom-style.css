@@ -39,3 +39,46 @@
       height: auto;
   }
 }
+
+
+/* Empêche les liens longs de se couper bizarrement */
+.navbar-nav .nav-link {
+  white-space: nowrap;
+  padding: 0.5rem 1rem;
+  font-size: 15px;
+}
+
+/* Permet au menu de mieux gérer le manque d’espace */
+@media (min-width: 992px) {
+  .navbar-nav {
+    flex-wrap: nowrap !important;
+    justify-content: space-between;
+    gap: 0.5rem;
+    width: 100%;
+  }
+
+  /* Réduction de la largeur max du mega menu pour éviter le débordement */
+  .mega-dropdown-menu {
+    min-width: 850px;
+    max-width: 100%;
+    padding: 1.5rem;
+  }
+}
+
+/* Mobile-friendly */
+@media (max-width: 991px) {
+  .navbar-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-nav .nav-link {
+    white-space: normal;
+    word-break: break-word;
+    width: 100%;
+  }
+
+  .nav-right {
+    margin-top: 1rem;
+  }
+}
